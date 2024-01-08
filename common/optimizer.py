@@ -1,3 +1,8 @@
+# coding: utf-8
+import sys
+sys.path.append('..')
+from common.np import *
+
 class SGD:
     def __init__(self, lr=0.01):
         self.lr = lr
