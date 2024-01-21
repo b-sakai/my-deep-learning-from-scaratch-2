@@ -5,7 +5,7 @@ from common.optimizer import SGD
 from common.trainer import RnnlmTrainer
 from common.util import eval_perplexity
 from dataset import ptb
-from better_rnnlm import BetterRnnlm
+from better_rnnlm imp
 
 # ハイパーパラメータの設定
 batch_size = 20
